@@ -126,7 +126,7 @@ export default function BmiCalculator() {
                     <div className="text-red-500 text-center">{error}</div>
                     }
                     {result && (
-                        <div className="grid gap-2">
+                        <div className="grid gap-2 animate-in zoom-in duration-500">
                             <div className="text-center text-2xl font-bold">{result.bmi}</div>
                             <div className="text-center text-muted-foreground">
                                 {result.category}
