@@ -71,7 +71,7 @@ export default function BmiCalculator() {
     }
 
     return (
-        <div className="flex flex-col item-center justify-center min-h-screen bg-gray-100 dark:bg-gray-900"
+        <div className="flex flex-col item-center justify-center min-h-screen bg-gray-100 dark:bg-gray-900 p-4 sm:p-8"
         style={{
             backgroundImage: `url('/bmi.png')`,
             backgroundPosition: 'center',
